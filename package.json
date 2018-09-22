@@ -1,0 +1,13 @@
+{
+    "name": "react-tindog",
+    "version": "1.0.0",
+    "description": "react-tindog",
+    "main": "README.md",
+    "scripts": {},
+    "keywords": [],
+    "author": "Frag. <fernando@fraguilar.com> (fraguilar.com)",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+    }
+}

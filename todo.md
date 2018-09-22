@@ -4,7 +4,7 @@
 
 ## Create react app
 
-* [ ] Using the next branch! With the latest scripts (Webpack 4). Still in Alpha.
+* [X] Using the next branch! With the latest scripts (Webpack 4). Still in Alpha.
   * https://github.com/facebook/create-react-app/issues/3815
 
 ```sh
