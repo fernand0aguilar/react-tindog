@@ -11,16 +11,16 @@
 npx create-react-app@next --scripts-version=2.0.0-next.a671462c
 ```
 
-* [ ] Tour the app
-  * [ ] index.js
-  * [ ] App.js
+* [X] Tour the app
+  * [X] index.js
+  * [X] App.js
 
 ---
 
 ## Setup eslint
 
-* [ ] Must install the version that react-scripts uses. (4.19.1 right now)
-* [ ] Using eslint-plugin-react and babel-eslint
+* [X] Must install the version that react-scripts uses. (4.19.1 right now)
+* [X] Using eslint-plugin-react and babel-eslint
   * https://github.com/yannickcr/eslint-plugin-react
 
 ```sh
@@ -28,19 +28,19 @@ yarn add --dev eslint@4.19.1 eslint-plugin-react babel-eslint
 npx eslint --init
 ```
 
-* [ ] Update .eslintrc.js
-  * [ ] 2 space tab
-  * [ ] extend "plugin:react/recommended"
-  * [ ] "parser": "babel-eslint"
-  * [ ] Disable "jsx-a11y/heading-has-content"
+* [X] Update .eslintrc.js
+  * [X] 2 space tab
+  * [X] extend "plugin:react/recommended"
+  * [X] "parser": "babel-eslint"
+  * [X] Disable "jsx-a11y/heading-has-content"
     * https://github.com/evcohen/eslint-plugin-jsx-a11y/issues/440
 
 ---
 
 ## Clean Up, Layout, Styles
 
-* [ ] Basic render function
-* [ ] Remove logo ⚛️, styles 💅, tests... 😱
+* [X] Basic render function
+* [X] Remove logo ⚛️, styles 💅, tests... 😱
 
 ```html
 <header>
@@ -53,13 +53,13 @@ npx eslint --init
 </footer>
 ```
 
-* [ ] Add styles in public/index.html
+* [X] Add styles in public/index.html
 
 ```html
 <link rel="stylesheet" href="https://barkwire-style.now.sh/">
 ```
 
-* [ ] React.Fragment instead of div in App.js
+* [X] React.Fragment instead of div in App.js
 
 ---
 

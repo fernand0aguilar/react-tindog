@@ -1,7 +1,6 @@
 module.exports = {
     "env": {
         "browser": true,
-        "commonjs": true,
         "es6": true
     },
     "extends": [
@@ -35,7 +34,7 @@ module.exports = {
         "semi": [
             "error",
             "always"
-        ], 
+        ],
         "jsx-a11y/heading-has-content": 0
     }
 };
