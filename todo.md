@@ -65,8 +65,8 @@ npx eslint --init
 
 ## Components
 
-* [ ] Header
-* [ ] Footer
+* [X] Header
+* [X] Footer
 
 ---
 
@@ -80,9 +80,9 @@ npx eslint --init
 yarn add react-router-dom
 ```
 
-* [ ] Wrap App in Router
-* [ ] Create Routes Component
-  * [ ] Switch
+* [X] Wrap App in Router
+* [X] Create Routes Component
+  * [X] Switch
   * [ ] Not Found Route/Component
 
 ---

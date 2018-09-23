@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Routes from './components/Routes';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <header>
-          <h1>BarkWire</h1>
-        </header>
+        <Header />
         <main id="app">
-        <h1>It woks!</h1>
+          <Routes />
         </main>
-        <footer>
-          <small>&copy; Barkwire Inc.</small>
-        </footer>
+        <Footer />
       </React.Fragment>
     );
   }
