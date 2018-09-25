@@ -105,8 +105,8 @@ yarn add react-router-dom
 </ul>
 ```
 
-* [ ] Create DogList component
-  * [ ] propTypes
+* [X] Create DogList component
+  * [X] propTypes
     * https://www.npmjs.com/package/prop-types
 
 ```sh
@@ -125,7 +125,7 @@ DogList.propTypes = {
 };
 ```
 
-* Show dog info
+* [X] Show dog info
 
 ```html
 <section className="dog-listing">
