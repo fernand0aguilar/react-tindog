@@ -72,7 +72,7 @@ npx eslint --init
 
 ## Setup React Router
 
-* [ ] Using React Router v4
+* [X] Using React Router v4
   * https://reacttraining.com/react-router/web/guides/philosophy
   * https://www.npmjs.com/package/react-router-dom
 
@@ -83,15 +83,15 @@ yarn add react-router-dom
 * [X] Wrap App in Router
 * [X] Create Routes Component
   * [X] Switch
-  * [ ] Not Found Route/Component
+  * [X] Not Found Route/Component
 
 ---
 
 ## As a lonely dog, I want to see a list of all of the dogs that are available so that I can see my dating options.
 
-* [ ] Create DogsPage Container
-* [ ] Add / route for DogsPage
-* [ ] Link to / route in Header
+* [X] Create DogsPage Container
+* [X] Add / route for DogsPage
+* [X] Link to / route in Header
 * [ ] Setup state
 * [ ] Show loading message in render
   * Loading Component - https://i.giphy.com/media/VFDeGtRSHswfe/giphy.mp4
