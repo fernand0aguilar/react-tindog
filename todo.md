@@ -163,9 +163,9 @@ static propTypes = {
 };
 ```
 
-* [ ] Show Dog on Page
-  * [ ] Extract Dog Component from DogList
-    * [ ] PropTypes
+* [X] Show Dog on Page
+  * [X] Extract Dog Component from DogList
+    * [X] PropTypes
 
 ## STRETCH!
 

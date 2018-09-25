@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { getDogs } from '../API';
 import { getSingleDog } from '../API';
+import Dog from '../components/Dog';
 
-export class Dog extends Component{
+export class DogPage extends Component{
     state = {
         dog: null
     };
@@ -26,10 +26,10 @@ export class Dog extends Component{
 
     render(){
         const { dog } = this.state;
-        return dog ? 
-        <h1>Hdksa</h1> : 
-        <h1>Loading...</h1>;
+        return dog
+        ? <Dog dog={dog} /> 
+        : <h1>Loading...</h1>;
     }
 }
 
-export default Dog;
+export default DogPage;
