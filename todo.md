@@ -144,14 +144,14 @@ DogList.propTypes = {
 
 ## As a lonely dog, I want to be able to link to a specific dog so that I can share my favorite dogs with my friends.
 
-* [ ] Create DogPage Container
-* [ ] Add /dogs/:id route for DogPage
-* [ ] Setup state
-* [ ] Show loading message in render
-* [ ] Call API in componentDidMount
-  * [ ] Get id from params
-  * [ ] create API getDog(id)
-  * [ ] setState
+* [X] Create DogPage Container
+* [X] Add /dogs/:id route for DogPage
+* [X] Setup state
+* [X] Show loading message in render
+* [X] Call API in componentDidMount
+  * [X] Get id from params
+  * [X] create API getDog(id)
+  * [X] setState
 
 ```js
 static propTypes = {

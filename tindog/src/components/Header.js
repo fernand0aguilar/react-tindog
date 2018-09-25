@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Header = () => (
     <header>
-        <h1>Tindog</h1>
+        <h1><Link to="/">Tindog</Link></h1>
     </header>
 );
 
