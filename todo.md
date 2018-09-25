@@ -92,13 +92,13 @@ yarn add react-router-dom
 * [X] Create DogsPage Container
 * [X] Add / route for DogsPage
 * [X] Link to / route in Header
-* [ ] Setup state
-* [ ] Show loading message in render
+* [X] Setup state
+* [X] Show loading message in render
   * Loading Component - https://i.giphy.com/media/VFDeGtRSHswfe/giphy.mp4
-* [ ] Call API in componentDidMount
-  * [ ] create API getDogs
-  * [ ] setState
-* [ ] Show Dogs on Page
+* [X] Call API in componentDidMount
+  * [X] create API getDogs
+  * [X] setState
+* [X] Show Dogs on Page
 
 ```html
 <ul className="dogs">
