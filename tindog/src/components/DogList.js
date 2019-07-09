@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import {Link} from 'react-router-dom';
-import Dog from './Dog';
+import React from "react";
+import PropTypes from "prop-types";
+import {Link} from "react-router-dom";
+import Dog from "./Dog";
 
 const DogList = ({dogs}) => (
     <ul className="dogs">

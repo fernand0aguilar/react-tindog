@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { getSingleDog } from '../API';
-import Dog from '../components/Dog';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { getSingleDog } from "../API";
+import Dog from "../components/Dog";
 
 export class DogPage extends Component{
     state = {
@@ -21,14 +21,14 @@ export class DogPage extends Component{
         const {dog} = await getSingleDog(id);
         this.setState({
             dog
-        })
+        });
     }
 
     render(){
         const { dog } = this.state;
         return dog
-        ? <Dog dog={dog} /> 
-        : <h1>Loading...</h1>;
+            ? <Dog dog={dog} /> 
+            : <h1>Loading...</h1>;
     }
 }
 

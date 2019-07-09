@@ -1,13 +1,31 @@
 {
-    "name": "react-tindog",
-    "version": "1.0.0",
-    "description": "react-tindog",
-    "main": "README.md",
-    "scripts": {},
-    "keywords": [],
-    "author": "Frag. <fernando@fraguilar.com> (fraguilar.com)",
-    "license": "MIT",
-    "dependencies": {},
-    "devDependencies": {
-    }
+	"name": "movie-search",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-router-dom": "^4.3.1",
+		"react-scripts": "3.0.1",
+		"styled-components": "^4.3.2",
+		"styled-system": "^3.1.11"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"test:flow": "flow ."
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [">0.2%", "not dead", "not op_mini all"],
+		"development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+	},
+	"devDependencies": {
+		"@significa/eslint-config-significa": "^1.0.2",
+		"flow-bin": "^0.102.0"
+	}
 }

@@ -1,9 +1,9 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
 
-import NotFound from './NotFound'
-import DogsPage from '../containers/DogsPage';
-import DogPage from '../containers/DogPage';
+import NotFound from "./NotFound";
+import DogsPage from "../containers/DogsPage";
+import DogPage from "../containers/DogPage";
 
 
 const Routes = () => (
